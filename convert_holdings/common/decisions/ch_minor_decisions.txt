@@ -3,7 +3,7 @@
 		reference = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 	}
 
-	decision_group_type = realm
+	decision_group_type = domain
 	sort_order = 5
 
 	ai_check_interval = 0
@@ -65,7 +65,7 @@
 
 	cost = {
 		gold = 300
-		prestige = 400
+		prestige = 200
 	}
 
 	effect = {
@@ -88,7 +88,7 @@ ch_convert_holding_to_city_decision = {
 		reference = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 	}
 
-	decision_group_type = realm
+	decision_group_type = domain
 	sort_order = 4
 
 	ai_check_interval = 0
@@ -165,7 +165,7 @@ ch_convert_holding_to_temple_decision = {
 		reference = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
 	}
 
-	decision_group_type = realm
+	decision_group_type = domain
 	sort_order = 3
 
 	ai_check_interval = 0
@@ -243,6 +243,9 @@ ch_convert_holding_to_tribal_decision = {
 		reference = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
 	}
 
+	decision_group_type = domain
+	sort_order = 2
+
 	ai_check_interval = 0
 
 	is_shown = {
@@ -289,8 +292,8 @@ ch_convert_holding_to_tribal_decision = {
 	}
 
 	cost = {
-		gold = 300
-		prestige = 250
+		gold = 200
+		prestige = 300
 	}
 
 	effect = {
@@ -326,6 +329,9 @@ ch_convert_holding_to_nomad_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/holding_types/mpo_nomad_holding.dds"
 	}
+
+	decision_group_type = domain
+	sort_order = 1
 
 	ai_check_interval = 0
 
@@ -373,7 +379,9 @@ ch_convert_holding_to_nomad_decision = {
 	}
 
 	cost = {
-		gold = 500
+		gold = 150
+		prestige = 150
+		piety = 150
 	}
 
 	effect = {

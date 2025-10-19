@@ -1,0 +1,4 @@
+﻿domain = {
+    sort_order = 20
+    gui_tags = { big_button }
+}
