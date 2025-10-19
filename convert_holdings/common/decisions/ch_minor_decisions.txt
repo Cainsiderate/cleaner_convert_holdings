@@ -3,6 +3,9 @@
 		reference = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 	}
 
+	decision_group_type = realm
+	sort_order = 5
+
 	ai_check_interval = 0
 
 	is_shown = {
@@ -61,7 +64,8 @@
 	}
 
 	cost = {
-		gold = 500
+		gold = 300
+		prestige = 400
 	}
 
 	effect = {
@@ -83,6 +87,9 @@ ch_convert_holding_to_city_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 	}
+
+	decision_group_type = realm
+	sort_order = 4
 
 	ai_check_interval = 0
 
@@ -135,7 +142,7 @@ ch_convert_holding_to_city_decision = {
 	}
 
 	cost = {
-		gold = 500
+		gold = 450
 	}
 
 	effect = {
@@ -157,6 +164,9 @@ ch_convert_holding_to_temple_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
 	}
+
+	decision_group_type = realm
+	sort_order = 3
 
 	ai_check_interval = 0
 
@@ -209,7 +219,8 @@ ch_convert_holding_to_temple_decision = {
 	}
 
 	cost = {
-		gold = 500
+		gold = 300
+		piety = 200
 	}
 
 	effect = {
@@ -278,7 +289,8 @@ ch_convert_holding_to_tribal_decision = {
 	}
 
 	cost = {
-		gold = 500
+		gold = 300
+		prestige = 250
 	}
 
 	effect = {
